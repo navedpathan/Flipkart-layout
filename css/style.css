@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+:root{
+    --main-bg-color: #2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    /* border: 2px solid red; */
+    font-family: 'Lato', sans-serif;
+    /* position: fixed; */
+    /* width: 100vw; */
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 90px;
+    padding: 0 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a:hover{
+    color: white;
+    font-weight: bolder;
+}   
+
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 500px;
+    height: 35px;
+    /* border: black 1px solid; */
+    margin: 0 10px 0 40px;
+    padding: 0 20px;
+}
+.btn{
+    width: 60px;
+    height: 35px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: white 2px solid;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    /* cursor: pointer; */
+}
+.btn:hover{
+    background-color: #005cf0;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+}
+
+.btn2{
+    width: 90px;
+    height: 35px;
+    color: var(--main-bg-color);
+    background-color: white;
+    border: white 2px solid;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 0 0 0 160px;
+    /* cursor: pointer; */
+}
+
+.slider{
+    margin: 10px auto;
+    width: 85vw;
+    overflow: hidden;
+}
+.card{
+    max-width: 90vw;
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.cards{
+    display: flex;
+    /* overflow: scroll; */
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+}
+footer{
+    background-color: var(--main-bg-color);
+    height: 12vh;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    /* width: 100vw; */
+    /* position: absolute; */
+}
